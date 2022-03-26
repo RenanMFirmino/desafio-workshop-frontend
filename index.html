@@ -4,9 +4,50 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>desafio-workshop-frontend</title>
+    <title>Cadastro para site de viagem</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
-<body>
-    
+<body >
+
+    <header class="header">
+        <a href="" id="home"><img src="travelbadge.jpg" alt="logo" id="logo"> </a>
+        <nav class="menu">
+            <a href="" class="items-menu">Guias</a>
+            <a href="" class="items-menu">Atendimento</a>
+            <a href="" class="items-menu">Cadastro</a>
+            <a href="" class="items-menu">Login</a>
+        </nav>
+    </header>
+
+    <button id="mudar" title="background change" onclick="mudar()"><img src="lua.png" alt="trocar background" id="sollua" class="sollua"></button>
+
+    <main class="main">
+        <div id="cadastro">
+            <h2 id="titulo1" class="texto">Cadastre-se para receber <br> ofertas exclusivas!</h2>
+            <form action="" method="post" class="informe">
+                <input type="text" name="nome" id="nome" onfocus="this.value=''" value="Digite seu nome completo"><br>
+                <input type="text" name="email" id="email" onfocus="this.value=''" value="Digite seu e-mail"><br>
+                <button id="enviar">CADASTRO</button>
+            </form>
+        </div>
+        <div id="informacao">
+            <h1 id="titulo2" class="texto">OFERTAS EXCLUSIVAS <br> TEMPO LIMITADO</h1>
+            <p id="paragrafo" class="texto">Ofertas verificadas pelo nosso time para que você compre passagems aereas com segurança e preço baixo.
+                 Acompanhe as ofertas no Azul Travels. São milhares de Promoções das Melhores Linhas aereas.
+                  Só aqui no Azul Travels. Promoções de Verdade. Você só Encontra aqui. As Melhores Promoções.</p>
+            <img src="voos.PNG" alt="ofertas" id="ofertas">
+        </div>
+    </main>
+
+    <footer class="rodape">
+        <div class="logos">
+            <a href="https://www.facebook.com/"><img src="facebooklogo.png" alt="facebooklogo" class="imagem"></a>
+            <a href="https://www.instagram.com/?hl=en"><img src="instagranlogo.png" alt="instagranlogo" class="imagem"></a>
+            <a href="https://twitter.com/?lang=en"><img src="twitterlogo.png" alt="twitterlogo" class="imagem"></a>
+            <a href="tel:+5583000000000"><img src="wattsapplogo.png" alt="wattsapplogo" class="imagem"></a>
+        </div>
+        
+    </footer>
+    <script src="script.js"></script>
 </body>
 </html>
