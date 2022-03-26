@@ -1,0 +1,105 @@
+
+@font-face {
+    font-family:'Inter' ;
+    src: url("https://fonts.googleapis.com/css2?family=Inter&family=Merriweather:wght@400;700;900&display=swap");
+}
+body{
+    font-family: 'Inter';
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 2px solid blue;
+    
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    gap: 10vw;
+    font-weight: 600;
+}
+.itemmenu{
+    border: 2px solid blue;
+}
+#logo{
+    height: 15vh;
+    padding-right: 20vw;
+}
+#mudar:hover{
+    background-color: black;
+}
+#sollua{
+    height: 3vh;
+    background-color: white;
+}
+
+.main{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 15vh;
+    border-bottom: 2px solid blue;
+    gap: 2vw;
+}
+#cadastro{
+    border: 2px solid grey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2vh;
+    padding: 10vh;
+}
+#titulo1{
+    text-align: center;
+}
+.informe{
+    display: flex;
+    flex-direction: column;
+    gap: .2vh;
+}
+#nome{
+    color: gray;
+    width: 20vw;
+}
+#email{
+    color: gray;
+    width: 23vw;
+}
+#enviar{
+    background: cornflowerblue;
+    height: 10vw;
+    font-size:larger;
+}
+#informacao{
+    display: flex;
+    flex-direction: column;
+    gap: .2vh;
+}
+#titulo2{
+    text-align: center;
+}
+#ofertas{
+    height: 50vh;
+}
+.rodape{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.logos{
+    display: flex;
+    gap: .2vw;
+}
+.imagem{
+height: 2vw;
+}
+.principal{
+    background-color: black;
+}
+.letras{
+    color: antiquewhite;
+}
