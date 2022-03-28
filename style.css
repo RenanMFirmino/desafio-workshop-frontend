@@ -5,6 +5,7 @@
 }
 body{
     font-family: 'Inter';
+    
 }
 .header{
     display: flex;
@@ -12,6 +13,7 @@ body{
     align-items: center;
     justify-content: space-around;
     border-bottom: 2px solid blue;
+    background: blue;
     
 }
 .menu{
@@ -51,6 +53,8 @@ body{
     align-items: center;
     gap: 2vh;
     padding: 10vh;
+    background-color: #cccccc;
+    background-image: url('praia.jpg');
 }
 #titulo1{
     text-align: center;
@@ -77,6 +81,7 @@ body{
     display: flex;
     flex-direction: column;
     gap: .2vh;
+    background: #cccccc;
 }
 #titulo2{
     text-align: center;
@@ -85,17 +90,19 @@ body{
     height: 50vh;
 }
 .rodape{
+    background: blue;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
+    padding: 15vh;
 }
 .logos{
     display: flex;
     gap: .2vw;
 }
 .imagem{
-height: 2vw;
+height: 3vw;
 }
 .principal{
     background-color: black;
